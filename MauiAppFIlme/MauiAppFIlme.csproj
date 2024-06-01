@@ -57,7 +57,7 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\Asociedadedaneve.png" />
-	  <None Remove="Resources\Images\Desaventuraemserie.png" />
+	  <None Remove="Resources\Images\Desventuraemserie.png" />
 	  <None Remove="Resources\Images\Emchamas.png" />
 	  <None Remove="Resources\Images\Interestellar.png" />
 	</ItemGroup>
@@ -72,10 +72,22 @@
 	  <Compile Update="Categorias\Aventura.xaml.cs">
 	    <DependentUpon>Aventura.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Filmes\ASociedadeDaNeve.xaml.cs">
+	    <DependentUpon>ASociedadeDaNeve.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\DesventurasEmSerie.xaml.cs">
+	    <DependentUpon>DesventurasEmSerie.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiXaml Update="Categorias\Aventura.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\ASociedadeDaNeve.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\DesventurasEmSerie.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

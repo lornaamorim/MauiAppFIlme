@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppFIlme.Filmes.NewPage1"
+             Title="ASociedeDaNeve"
+             BackgroundColor="Black">
+
+    <Grid RowDefinitions="*, *" ColumnDefinitions="*">
+
+        <WebView Grid.Column="0" Grid.Row="0" 
+                 Source="https://youtu.be/9cjSePIf1l0?si=UbfbjOAiPyeQbW1u" 
+                 WidthRequest="350" HeightRequest="250"/>
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            
+            <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
+                
+                <Image Grid.Column="0" Grid.Row="0" Source="Asociedadedaneve.png" 
+                       x:Name="postersocied" WidthRequest="150" HeightRequest="250" />
+                
+                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0">
+                    
+                    <Label Text="Data de Lançamento" Style="{StaticResource titulo}" 
+                           FontSize="16" FontAttributes="Bold" TextColor="White"/>
+
+                    <Label Text="15 de dezembro de 2023" Style="{StaticResource textoTitulo}" 
+                           FontSize="14" TextColor="White"/>
+
+                    <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" 
+                           FontSize="16" FontAttributes="Bold" TextColor="White"/>
+
+                    <Label Text="Juan Antonio Bayona" Style="{StaticResource textoTitulo}" 
+                           FontSize="14" TextColor="White" />
+
+                    <Label Text="Elenco" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" 
+                           FontSize="15" FontAttributes="Bold" TextColor="White"/>
+
+                    <Label Text="Enzo Vogrincic Roldán, Simón Hempe, Matías Recalt" 
+                           Style="{StaticResource textoTitulo}" 
+                           FontSize="14" TextColor="White" />
+                    
+                </StackLayout>
+
+                <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+                    
+                    <Label Text="Sinopse" Style="{StaticResource titulo}" 
+                           FontSize="16" Padding="15" HeightRequest="40" 
+                           FontAttributes="Bold" TextColor="White"/>
+
+                    <Label x:Name="sinopseasociedad" Text="Em 1972, um voo vindo do Uruguai colide com uma geleira nos Andes. Apenas 29 dos seus 45 passageiros sobreviveram ao acidente. Presos em um dos ambientes mais hostis do planeta, eles são forçados a lutar pelas suas vidas."
+                           FontSize="15" Padding="10" TextColor="White"/>
+
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

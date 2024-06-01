@@ -1,0 +1,57 @@
+j<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppFIlme.Filmes.NewPage1"
+             Title="DesventurasEmSerie"
+             BackgroundColor="Black">
+
+    <Grid RowDefinitions="*, *" ColumnDefinitions="*">
+
+        <WebView Grid.Column="0" Grid.Row="0" 
+                 Source="https://youtu.be/BNhIxSkvspg?si=d6DBfQtkb9W4Huuh" 
+                 WidthRequest="350" HeightRequest="250"/>
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+
+            <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
+
+                <Image Grid.Column="0" Grid.Row="0" Source="Desventurasemserie.png" 
+                       x:Name="posterdesvent" WidthRequest="150" HeightRequest="250" />
+
+                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0">
+
+                    <Label Text="Data de Lançamento" Style="{StaticResource titulo}" 
+                           FontSize="16" FontAttributes="Bold" TextColor="White"/>
+
+                    <Label Text="17 de dezembro de 2004" Style="{StaticResource textoTitulo}" 
+                           FontSize="14" TextColor="White"/>
+
+                    <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" 
+                           FontSize="16" FontAttributes="Bold" TextColor="White"/>
+
+                    <Label Text="Brad Silberling" Style="{StaticResource textoTitulo}" 
+                           FontSize="14" TextColor="White" />
+
+                    <Label Text="Elenco" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" 
+                           FontSize="15" FontAttributes="Bold" TextColor="White"/>
+
+                    <Label Text="Jim Carrey, Emily Browning, Liam Aiken, Timothy Spall" 
+                           Style="{StaticResource textoTitulo}" 
+                           FontSize="14" TextColor="White" />
+
+                </StackLayout>
+
+                <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+
+                    <Label Text="Sinopse" Style="{StaticResource titulo}" 
+                           FontSize="16" Padding="15" HeightRequest="40" 
+                           FontAttributes="Bold" TextColor="White"/>
+
+                    <Label x:Name="sinopsedesvent" Text="Um incêndio na mansão de Baudelaire obriga três irmãos, que agora estão órfãos, a morarem com seu parente distante, o Conde Olaf. Infelizmente, Olaf é um homem cruel, interessado apenas na herança que a irmã mais velha, Violet, está para receber. As crianças escapam e encontram abrigo com o tio Monty e logo depois com a tia Josephina, mas Olaf está sempre por perto."
+                           FontSize="15" Padding="10" TextColor="White"/>
+
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

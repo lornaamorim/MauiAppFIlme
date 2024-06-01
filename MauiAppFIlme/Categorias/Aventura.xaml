@@ -14,19 +14,19 @@
                   Padding="5">
                 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
-                             Source="Asociedadedaneve.jpg" x:Name="Asociedade"
+                             Source="Asociedadedaneve.png" x:Name="Asociedade"
                              Clicked="Asociedade_Clicked" />
 
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" 
-                             Source="Desaventuraemserie.jpg" x:Name="Desavent" 
+                             Source="Desventuraemserie.png" x:Name="Desavent" 
                              Clicked="Desavent_Clicked"/>
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1" 
-                             Source="Emchamas.jpg" x:Name="Emchamas" 
+                             Source="Emchamas.png" x:Name="Emchamas" 
                              Clicked="Emchamas_Clicked" />
 
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1" 
-                             Source="Interestellar.jpg" x:Name="Interestellar" 
+                             Source="Interestellar.png" x:Name="Interestellar" 
                              Clicked="Interestellar_Clicked" />
 
             </Grid>
