@@ -23,7 +23,7 @@
               VerticalOptions="FillAndExpand"
               RowDefinitions="*, *, *, *, *">
 
-            <Button x:Name="btn00" Grid.Row="0" Grid.Column="0" Text="Aventura" Clicked="btnAventura_Clicked" />
+            <Button x:Name="btnAventura" Grid.Row="0" Grid.Column="0" Text="Aventura" Clicked="btnAventura_Clicked" />
             <Button x:Name="btn10" Grid.Row="1" Grid.Column="0" Text="Drama" />
             <Button x:Name="btn20" Grid.Row="2" Grid.Column="0" Text="Ficção Científica"/>
             <Button x:Name="btn30" Grid.Row="3" Grid.Column="0" Text="Infantil"/>
