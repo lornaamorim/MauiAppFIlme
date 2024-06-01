@@ -78,6 +78,12 @@
 	  <Compile Update="Filmes\DesventurasEmSerie.xaml.cs">
 	    <DependentUpon>DesventurasEmSerie.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Filmes\Emchamas.xaml.cs">
+	    <DependentUpon>EmChamas.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\Interestellar.xaml.cs">
+	    <DependentUpon>Interestellar.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -88,6 +94,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\DesventurasEmSerie.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\EmChamas.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\Interestellar.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
