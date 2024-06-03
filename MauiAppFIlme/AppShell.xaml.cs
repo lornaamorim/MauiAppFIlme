@@ -1,4 +1,4 @@
-﻿namespace MauiAppFIlme
+﻿namespace MauiAppFilme
 {
     public partial class AppShell : Shell
     {

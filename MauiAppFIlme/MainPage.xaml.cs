@@ -1,4 +1,4 @@
-﻿namespace MauiAppFIlme
+﻿namespace MauiAppFilme
 {
     public partial class MainPage : ContentPage
     {
@@ -13,5 +13,4 @@
 
         }
     }
-
 }

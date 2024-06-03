@@ -1,6 +1,6 @@
-namespace MauiAppFIlme.Filmes;
+namespace MauiAppFilme.Filmes;
 
-public partial class DesventurasEmSerie: ContentPage
+public partial class DesventurasEmSerie : ContentPage
 {
 	public DesventurasEmSerie()
 	{

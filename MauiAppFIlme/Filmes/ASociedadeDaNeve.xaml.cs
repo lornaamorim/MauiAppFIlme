@@ -1,4 +1,4 @@
-namespace MauiAppFIlme.Filmes;
+namespace MauiAppFilme.Filmes;
 
 public partial class ASociedadeDaNeve: ContentPage
 {

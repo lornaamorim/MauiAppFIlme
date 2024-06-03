@@ -1,8 +1,8 @@
-namespace MauiAppFIlme.Filmes;
+namespace MauiAppFilme.Filmes;
 
-public partial class NewPage1 : ContentPage
+public partial class Interestellar : ContentPage
 {
-	public NewPage1()
+	public Interestellar()
 	{
 		InitializeComponent();
 	}

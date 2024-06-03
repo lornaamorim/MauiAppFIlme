@@ -1,4 +1,4 @@
-namespace MauiAppFIlme.Categorias;
+namespace MauiAppFilme.Categorias;
 
 public partial class Aventura : ContentPage
 {
