@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppFilme.Filmes.ASociedadeDaNeve"
-             Title="A Sociede Da Neve"
+             x:Class="MauiAppFilme.Filmes.Megamente"
+             Title="Megamente"
              BackgroundColor="Black">
 
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-                 Source="https://youtu.be/9cjSePIf1l0?si=UbfbjOAiPyeQbW1u" 
+                 Source="https://youtu.be/ead9HCX9fe4?si=rGff9Iy_Cr3z-YhE" 
                  WidthRequest="350" HeightRequest="250"/>
 
         <ScrollView Grid.Row="1" Grid.Column="0">
-            
+
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
-                
-                <Image Grid.Column="0" Grid.Row="0" Source="Asociedadedaneve.png" 
-                       x:Name="postersocied" WidthRequest="150" HeightRequest="250" />
-                
+
+                <Image Grid.Column="0" Grid.Row="0" Source="megamente.png" 
+                       x:Name="postermegamente" WidthRequest="150" HeightRequest="250" />
+
                 <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0">
-                    
+
                     <Label Text="Data de Lançamento" Style="{StaticResource titulo}" 
                            FontSize="16" FontAttributes="Bold" TextColor="White"/>
 
-                    <Label Text="15 de dezembro de 2023" Style="{StaticResource textoTitulo}" 
+                    <Label Text="3 de dezembro de 2010 " Style="{StaticResource textoTitulo}" 
                            FontSize="14" TextColor="White"/>
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" 
                            FontSize="16" FontAttributes="Bold" TextColor="White"/>
 
-                    <Label Text="Juan Antonio Bayona" Style="{StaticResource textoTitulo}" 
+                    <Label Text="Tom McGrath" Style="{StaticResource textoTitulo}" 
                            FontSize="14" TextColor="White" />
 
                     <Label Text="Elenco" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" 
                            FontSize="15" FontAttributes="Bold" TextColor="White"/>
 
-                    <Label Text="Enzo Vogrincic Roldán, Simón Hempe, Matías Recalt" 
+                    <Label Text="Will Ferrell, Tom McGrath, Ben Stiller" 
                            Style="{StaticResource textoTitulo}" 
                            FontSize="14" TextColor="White" />
-                    
+
                 </StackLayout>
 
                 <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
-                    
+
                     <Label Text="Sinopse" Style="{StaticResource titulo}" 
                            FontSize="16" Padding="15" HeightRequest="40" 
                            FontAttributes="Bold" TextColor="White"/>
 
-                    <Label x:Name="sinopseasociedad" Text="Em 1972, um voo vindo do Uruguai colide com uma geleira nos Andes. Apenas 29 dos seus 45 passageiros sobreviveram ao acidente. Presos em um dos ambientes mais hostis do planeta, eles são forçados a lutar pelas suas vidas."
+                    <Label x:Name="sinopseinterest" Text="Embora seja o vilão mais brilhante que o mundo já conheceu, Megamente é o menos bem-sucedido. Derrotado repetidamente pelo heroico Metro Man, ele fica surpreso quando finalmente consegue derrotar o seu inimigo de longa data. Porém, sem Metro Man, Megamente não tem nenhum propósito na vida, então ele cria um novo adversário que logo decide que é mais divertido ser um vilão que um herói"
                            FontSize="15" Padding="10" TextColor="White"/>
 
                 </StackLayout>

@@ -60,6 +60,10 @@
 	  <None Remove="Resources\Images\Desventuraemserie.png" />
 	  <None Remove="Resources\Images\Emchamas.png" />
 	  <None Remove="Resources\Images\Interestellar.png" />
+	  <None Remove="Resources\Images\megamente.png" />
+	  <None Remove="Resources\Images\princesaeosapo.png" />
+	  <None Remove="Resources\Images\princesaepopstar.png" />
+	  <None Remove="Resources\Images\ratatouille.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -69,6 +73,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Categorias\Animacao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Categorias\Aventura.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -82,6 +89,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\Interestellar.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\megamente.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\princesaeosapo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
