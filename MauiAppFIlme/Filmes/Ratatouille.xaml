@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppFilme.Filmes.Princesaeosapo"
-             Title="A Princesa e o Sapo"
+             x:Class="MauiAppFilme.Filmes.Ratatouille"
+             Title="Ratatouille"
              BackgroundColor="Black">
 
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-                 Source="https://youtu.be/gqgPzVsJhB8?si=rqyDjhQyxAMVxdae" 
+                 Source="https://youtu.be/NgsQ8mVkN8w?si=U2p90xxZGK4yzihy" 
                  WidthRequest="350" HeightRequest="250"/>
 
         <ScrollView Grid.Row="1" Grid.Column="0">
 
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
 
-                <Image Grid.Column="0" Grid.Row="0" Source="princesaeapopstar.png" 
-                       x:Name="posterinterest" WidthRequest="150" HeightRequest="250" />
+                <Image Grid.Column="0" Grid.Row="0" Source="ratatouille.png" 
+                       x:Name="posterata" WidthRequest="150" HeightRequest="250" />
 
                 <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0">
 
                     <Label Text="Data de Lançamento" Style="{StaticResource titulo}" 
                            FontSize="16" FontAttributes="Bold" TextColor="White"/>
 
-                    <Label Text="11 de dezembro de 2009" Style="{StaticResource textoTitulo}" 
+                    <Label Text="6 de julho de 2007 " Style="{StaticResource textoTitulo}" 
                            FontSize="14" TextColor="White"/>
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" 
                            FontSize="16" FontAttributes="Bold" TextColor="White"/>
 
-                    <Label Text="John Musker, Ron Clements" Style="{StaticResource textoTitulo}" 
+                    <Label Text="Brad Bird" Style="{StaticResource textoTitulo}" 
                            FontSize="14" TextColor="White" />
 
                     <Label Text="Elenco" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" 
                            FontSize="15" FontAttributes="Bold" TextColor="White"/>
 
-                    <Label Text="Anika Noni Rose, John Musker, Bruno Campos" 
+                    <Label Text="Patton Oswalt, Lou Romano, Peter Sohn" 
                            Style="{StaticResource textoTitulo}" 
                            FontSize="14" TextColor="White" />
 
@@ -47,7 +47,7 @@
                            FontSize="16" Padding="15" HeightRequest="40" 
                            FontAttributes="Bold" TextColor="White"/>
 
-                    <Label x:Name="sinopseaprincesa" Text="Trabalhadora e ambiciosa, Tiana sonha um dia abrir o seu próprio restaurante em Nova Orleans. Seus planos tomam um rumo diferente quando ela conhece o príncipe Naveen, que foi transformado em sapo pelo maldoso Dr. Facilier. Porém, o príncipe sapo tem esperanças de se tornar um humano novamente se Tiana beijá-lo."
+                    <Label x:Name="sinopserata" Text="Remy reside em Paris e possui um sofisticado paladar. Seu sonho é se tornar um chef de cozinha e desfrutar as diversas obras da arte culinária. O único problema é que ele é um rato. Quando se acha dentro de um dos restaurantes mais finos de Paris, Remy decide transformar seu sonho em realidade"
                            FontSize="15" Padding="10" TextColor="White"/>
 
                 </StackLayout>
